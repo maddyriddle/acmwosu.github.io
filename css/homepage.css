@@ -2,6 +2,46 @@ body {
   font-family: 'Lato';
 }
 
+
+.alert {
+    padding: 50px;
+   background-color: rgba(173, 235, 235,0.9);
+    color: white;
+    position: fixed;
+    bottom: 400px;
+    right: 5px;
+    left: 5px;
+    width: 100%;
+    margin:0px;
+    border: 15px solid #ffff00;
+    z-index: 2;
+    text-align:center;
+    text-transform:uppercase;
+    text-indent: 100px;
+    letter-spacing: 5px;
+    line-height: 3;
+    word-spacing: 20px;
+    text-shadow: 2px 2px yellow;
+    font-size:15px;
+    
+  
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: white;
+}
+
 h1,
 h2,
 h3,
